@@ -1,0 +1,829 @@
+The number of input strings: 54
+
+cmper: 
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (ADVP (RB also))
+    (VP (VBZ likes)
+      (S
+        (VP (VBG eating)
+          (NP (NN sausage)))))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (NP (PRP$ My) (NN dog))
+    (VP (VBZ loves)
+      (S
+        (VP (VBG staying)
+          (PP (IN in)
+            (NP (NN home))))))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 52.38%
+
+cmper: 
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (DT the) (NN button))
+        (VP (VBZ is)
+          (VP (VBN pressed)))))
+    (, ,)
+    (NP (DT the) (NNP LED))
+    (VP (VBZ turns)
+      (PRT (RP on)))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (NNP AWRITE))
+        (VP (VBZ is)
+          (VP (VBN asserted)))))
+    (, ,)
+    (NP (DT the) (NN transaction))
+    (VP (VBZ ends))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 77.63%
+
+cmper: 
+(ROOT
+  (S
+    (NP (DT The) (JJ quick) (JJ brown) (NN fox))
+    (VP (VBD jumped)
+      (PP (IN over)
+        (NP (DT the) (JJ lazy) (NN dog))))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP I))
+        (VP (VBD were)
+          (NP (DT a) (NN bird)))))
+    (, ,)
+    (NP (PRP I))
+    (VP (MD would)
+      (VP (VB fly)
+        (PP (TO to)
+          (NP (PRP you)))))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 19.78%
+
+cmper: 
+(ROOT
+  (S
+    (NP (DT The) (JJ quick) (JJ brown) (NN fox))
+    (VP (VBD jumped)
+      (PP (IN over)
+        (NP (DT the) (JJ lazy) (NN dog))))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (NP (DT The) (JJ quick) (JJ brown) (NN fox))
+    (VP (VBD jumped)
+      (PRT (RP over))
+      (NP (DT the)
+        (ADJP (JJ cute))
+        (NN dog)))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 56.52%
+
+cmper: 
+(ROOT
+  (S
+    (NP (DT The) (NN state))
+    (VP (VBZ has)
+      (NP (DT a) (NN responsibility)
+        (S
+          (VP (TO to)
+            (VP (VB make)
+              (ADJP (JJ sure)
+                (SBAR
+                  (S
+                    (NP (EX there))
+                    (VP (VBZ is)
+                      (ADVP (IN at) (JJS least))
+                      (NP (DT an) (JJ annual) (NN inspection)))))))))))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNP California) (NNP Department))
+      (PP (IN of)
+        (NP (NNP Education))))
+    (VP
+      (VP (VBD said)
+        (SBAR
+          (S
+            (NP (PRP it))
+            (VP (VBD was)
+              (VP (VBN sickened)
+                (PP (IN by)
+                  (NP (DT the) (NN tragedy))))))))
+      (CC and)
+      (VP (VBD was)
+        (VP (VBG investigating)
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (VP (VBD had)
+                (VP (VBN occurred))))))))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 3.93%
+
+cmper: 
+(ROOT
+  (S
+    (NP (NNP Casey))
+    (VP (VBZ throws)
+      (NP (DT the) (NN ball)))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (NP (NNP Casey))
+    (VP (MD will)
+      (VP (VB throws)
+        (NP (DT the) (NN ball))))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 65.22%
+
+cmper: 
+(ROOT
+  (S
+    (NP (PRP$ His) (NN lecture))
+    (VP (VBD was)
+      (VP (VBN illustrated)
+        (PP (IN with)
+          (NP
+            (NP (NNP slides))
+            (VP (VBN taken)
+              (PP (IN during)
+                (NP (DT the) (NN expedition))))))))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (NP (DT The) (NN incident))
+    (VP (VBZ illustrates)
+      (NP
+        (NP (DT the) (NN need))
+        (PP (IN for)
+          (NP (JJR better) (NN security) (NNS measures)))))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 35.07%
+
+cmper: 
+(ROOT
+  (S
+    (NP (NNS Doctors))
+    (ADVP (RB often))
+    (VP (VBP work)
+      (NP
+        (ADJP (RB very) (JJ long))
+        (NNS hours)))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ is)
+      (VP (VBG working)
+        (PP (IN on)
+          (NP (DT a) (JJ new) (NN novel)))))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 17.46%
+
+cmper: 
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP 've)
+      (VP (VBN been)
+        (VP (VBG working)
+          (PP (IN at)
+            (NP
+              (NP (PRP$ my) (NN assignment))
+              (NP (DT all) (NN day)))))))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP 've)
+      (ADVP (RB always))
+      (VP (VBN worked)
+        (PP (IN in)
+          (NP (NN education)))))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 46.79%
+
+cmper: 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ is)
+      (VP (VBG working)
+        (PP (IN on)
+          (NP (DT a) (JJ new) (NN novel)))))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (NP (DT The) (NN committee))
+    (VP (VBZ is)
+      (VP (VBG working)
+        (S
+          (VP (TO to)
+            (VP (VB get)
+              (NP
+                (NP (DT the) (NNS prisoners))
+                (VP (VBN freed))))))))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 30.00%
+
+cmper: 
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP
+      (VP (VBD played)
+        (NP (DT the) (NN ball)))
+      (CC and)
+      (VP (VBD ran)
+        (ADVP (RB forward))))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD played)
+      (NP (DT a) (JJ backhand) (NN volley)))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 59.09%
+
+cmper: 
+(ROOT
+  (S
+    (VP (VB Play)
+      (NP
+        (NP (PRP$ their) (JJ new) (NN CD))
+        (PP (IN for)
+          (NP (PRP me))))
+      (, ,) (VB please))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (VP
+      (VP (VB Play)
+        (S
+          (NP (PRP me))
+          (NP (PRP$ their) (JJ new) (NN CD))))
+      (, ,)
+      (VP (VB please)))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 25.00%
+
+cmper: 
+(ROOT
+  (S
+    (NP (DT The) (NNS media))
+    (VP (VBD played)
+      (NP (DT an) (JJ important) (NN part))
+      (PP (IN in)
+        (NP (DT the) (JJ last) (NN election))))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD played)
+      (NP (DT the) (NN situation))
+      (ADVP (RB carefully))
+      (PP (IN for)
+        (NP (JJ maximum) (NN advantage))))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 57.14%
+
+cmper: 
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBD wanted)
+        (S
+          (VP (TO to)
+            (VP (VB talk)
+              (PP (TO to)
+                (NP (PRP him))))))))
+    (CC but)
+    (S
+      (NP (PRP he))
+      (VP (VBD was)
+        (ADVP (RB nowhere))
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (VP (VBN found)))))))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD managed)
+      (S
+        (VP (TO to)
+          (VP (VB find)
+            (NP (DT a) (NN solution))
+            (PP (TO to)
+              (NP (DT the) (NN problem)))))))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 34.09%
+
+cmper: 
+(ROOT
+  (SQ (MD Can)
+    (NP (PRP you))
+    (VP (VB find)
+      (NP
+        (NP (DT a) (NN hotel))
+        (PP (IN for)
+          (NP (PRP me)))))
+    (. ?)))
+
+cpmee: 
+(ROOT
+  (SQ (MD Can)
+    (NP (PRP you))
+    (VP (VB find)
+      (S
+        (NP (PRP me))
+        (NP (DT a) (NN hotel))))
+    (. ?)))
+
+
+They are different.
+Similarity between first internal tree to second one: 46.81%
+
+cmper: 
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP 'm)
+      (VP (VBG having)
+        (NP (NN trouble))
+        (S
+          (VP (VBG finding)
+            (NP (NN anything) (JJ new))
+            (S
+              (VP (TO to)
+                (VP (VB say)
+                  (PP (IN on)
+                    (NP (DT this) (NN subject))))))))))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP 've)
+      (VP (VBN found)
+        (NP
+          (NP (DT a) (JJ great) (JJ new) (NN restaurant))
+          (PP (IN near)
+            (NP (DT the) (NN office))))))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 21.67%
+
+cmper: 
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD may)
+      (VP (VB find)
+        (NP (PRP$ your) (NN illness))
+        (ADVP (RB hard))
+        (S
+          (VP (TO to)
+            (VP (VB accept))))))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD may)
+      (VP (VB find)
+        (S
+          (NP (PRP it))
+          (ADJP (JJ hard)
+            (S
+              (VP (TO to)
+                (VP (VB accept)
+                  (NP (PRP$ your) (NN illness)))))))))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 31.58%
+
+cmper: 
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP find)
+      (S
+        (NP (PRP it))
+        (ADJP (JJ amazing)))
+      (SBAR (IN that)
+        (S
+          (NP (PRP they))
+          (VP (VBP 're)
+            (ADVP (RB still))
+            (ADVP (RB together))))))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBZ finds)
+      (S
+        (NP (PRP it))
+        (NP (DT a) (NN strain)
+          (S
+            (VP (TO to)
+              (VP (VB meet)
+                (NP (JJ new) (NNS people))))))))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 8.92%
+
+cmper: 
+(ROOT
+  (S
+    (NP (NNP Police))
+    (VP (VBD discovered)
+      (NP
+        (NP (DT a) (JJ large) (NN stash))
+        (PP (IN of)
+          (NP (NNS drugs))))
+      (PP (IN while)
+        (S
+          (VP (VBG searching)
+            (NP (DT the) (NN house))))))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBD discovered)
+      (NP (DT this) (NN beach))
+      (SBAR (IN while)
+        (S
+          (NP (PRP we))
+          (VP (VBD were)
+            (VP (VBG sailing)
+              (PP (IN around)
+                (NP (DT the) (NN island))))))))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 25.69%
+
+cmper: 
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP (DT a) (NN shock)
+        (S
+          (VP (TO to)
+            (VP (VB discover)
+              (SBAR (IN that)
+                (S
+                  (NP (PRP he))
+                  (VP (MD could) (RB n't)
+                    (VP (VB read))))))))))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (ADVP (RB later))
+      (VP (VBN discovered)
+        (SBAR (IN that)
+          (S
+            (NP (DT the) (NNS diaries))
+            (VP (VBD were)
+              (NP (DT a) (NN fraud)))))))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 21.74%
+
+cmper: 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD was)
+      (VP (VBN discovered)
+        (S
+          (VP (VBG hiding)
+            (PP (IN in)
+              (NP (DT a) (NN shed)))))))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD was)
+      (VP (VBN discovered)
+        (ADJP (JJ dead)
+          (PP (IN at)
+            (NP (PRP$ her) (NN home))))
+        (PP (IN in)
+          (NP (NNP Leeds)))))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 32.37%
+
+cmper: 
+(ROOT
+  (S
+    (NP (DT The) (NN man))
+    (VP (VBD was)
+      (VP
+        (VP (VBN described)
+          (S
+            (ADJP (RB as) (JJ tall)
+              (CC and)
+              (JJ dark))))
+        (, ,)
+        (CC and)
+        (VP (VBN aged)
+          (PP (IN about)
+            (NP (CD 20))))))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (NP (NNP Jim))
+    (VP (VBD was)
+      (VP (VBN described)
+        (PP (IN by)
+          (NP (PRP$ his) (NNS colleagues)))
+        (PP (IN as)
+          (ADJP (JJ unusual)))))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 28.43%
+
+cmper: 
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD explained)
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (NP
+            (NP (DT each) (NN person))
+            (PP (IN in)
+              (NP (DT the) (NN photo))))
+          (VP (VBD was)))))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBD explained)
+      (PP (TO to)
+        (NP
+          (NP (PRP them))
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (VP (TO to)
+                (VP (VB do)
+                  (PP (IN in)
+                    (NP (DT an) (NN emergency))))))))))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 27.03%
+
+cmper: 
+(ROOT
+  (S
+    (NP (DT The) (JJ first) (NN lecture))
+    (VP (VBZ introduces)
+      (NP (NNS students))
+      (PP (TO to)
+        (NP
+          (NP (DT the) (JJ main) (NNS topics))
+          (PP (IN of)
+            (NP (DT the) (NN course))))))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP
+        (NP (PRP she))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (ADVP (RB first))
+            (VP (VBD introduced)
+              (NP
+                (NP (DT the) (NNS pleasures))
+                (PP (IN of)
+                  (NP (NN sailing))))
+              (PP (TO to)
+                (NP (PRP me))))))))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 6.77%
+
+cmper: 
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD 'll)
+      (ADVP (RB never))
+      (VP (VB guess)
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (NP (PRP she))
+            (VP (VBD told)
+              (NP (PRP me)))))))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD would)
+      (ADVP (RB never))
+      (VP (VB guess)
+        (SBAR
+          (S
+            (NP (PRP she))
+            (VP (VBD had)
+              (NP (NNS problems)))))))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 88.00%
+
+cmper: 
+(ROOT
+  (S
+    (NP (DT The) (NN case))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBN decided)
+          (PP (IN by)
+            (NP (DT a) (NN jury))))))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (NP (DT The) (NNP Appeal) (NNP Court))
+    (VP (VBD decided)
+      (PP (IN in)
+        (NP (PRP$ their) (NN favour))))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 43.50%
+
+cmper: 
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN mixture))
+      (PP (IN of)
+        (NP (NN skill)
+          (CC and)
+          (JJ good) (NN luck))))
+    (VP (VBD decided)
+      (NP
+        (NP (DT the) (NN outcome))
+        (PP (IN of)
+          (NP (DT the) (NN game)))))
+    (. .)))
+
+cpmee: 
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN number))
+      (PP (IN of)
+        (NP (NNS factors))))
+    (VP (VBP decide)
+      (SBAR (IN whether)
+        (S
+          (NP (DT a) (NN movie))
+          (VP (MD will)
+            (VP (VB be)
+              (ADJP (JJ successful)))))
+        (CC or)
+        (RB not)))
+    (. .)))
+
+
+They are different.
+Similarity between first internal tree to second one: 26.50%
+

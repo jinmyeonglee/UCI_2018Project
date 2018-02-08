@@ -1,0 +1,13 @@
+If X is high, then Y is low.
+If X is high then Y is high.
+If X is high, then Y is low.
+If Z is on, then Q is off.
+When Z is off, then Q is on.
+If Z is off, then Q is on.
+Q should be off when Z is on.
+Q should be off, when Z is on.
+If A is on then B is off.
+B is off if A is on.
+Turn off B when A is on.
+Turn on B when started.
+You should turn on B when A is off.
