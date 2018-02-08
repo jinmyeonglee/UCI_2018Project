@@ -292,11 +292,6 @@ class MyUtil {
             System.out.println(str);
             System.out.println(value);
         }
-        /*for(double x : hs.keySet()) {
-            String key = String.format("%.2f", x);
-            String value = hs.get(x).toString();
-            System.out.println(key + ": " + value);
-        }*/
     }
 
     public static void compareTrees(Tree tree1, Tree tree2) throws IOException {
@@ -637,19 +632,6 @@ class MyUtil {
                     TD[i][j] = treedist(l1, l2, i, j, tree1, tree2);
                 }
             }
-/*
-
-            //print TD from here
-            for(int k = 0; k < TD.length; k++) {
-                for(int l = 0; l < TD[k].length; l++) {
-                    System.out.print(TD[k][l] + " ");
-                }
-                System.out.println();
-            }
-            System.out.println();
-            System.out.println();
-            //to
-*/
 
             double max = 0;
             for(int k = 0; k < TD.length; k++) {

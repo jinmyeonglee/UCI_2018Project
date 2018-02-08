@@ -26,7 +26,7 @@
 * 1 level(Phrase level): ADJP ADVP CONJP FRAG INTJ, etc.
 * 2 level(Word level): CC CD DT EX FW IN JJ  JJR JJS LS MD, etc.
 * 3 level(etc level): COMMA PERIOD ROOT.
-* 
+*
 
 ***
 #### Additional Config file
@@ -41,10 +41,18 @@ In this file, each double means each level's insert and delete weight.
 
 input: Three config file pathes.<br/>
 output: void.<br/>
-function: read the config files.
+function: read the config files, and store at HashMap levelWeight, double[][] weightMatrix, double[] weightArray.
 ```java
 void readWeight(String levels, String replaceWeights, String insertDeleteWeights);
 ```
+
+input: LexicalizedParser, filename(file path)<br/>
+return: void<br/>
+function: open the file and read all sentences, store at ArrayList usingTrees
+```java
+void fileManager(LexicalizedParser lp, String filename);
+```
+
 ***
 
 #### 1. Computing the Similarity.
@@ -65,14 +73,30 @@ function: The similarity of the internal nodes takes 90.00% and the similarity o
 String getSimilarity(Tree tree1, Tree tree2);
 ```
 input: tree, empty string.<br/>
-output: one flatten long string which has tree structure.<br/>
+return: one flatten long string which has tree structure.<br/>
 function: Make one long parse tree string.
 
  ```java
  String parseString(Tree node, String parsed);
  ```
+ input: tree with leaves<br/>
+ return: the original sentence, which is the set of the leaves.<br/>
+ function: concetnate all leaves to string.
+ ```java
+String getLeavesToString(Tree tree);
+```
 
  ###### ZTree Class
+ input: two tree<br/>
+ return: the similarity with double type.<br/>
+ function: Call the 'treedist' method, and fill the dynamic programming table with insert, delete, replace cost which is calculated by the weight matrix and string edit distance, and divide the edit distance with the max value, and return that value.
  ```java
  double ZhangShasha(ZTree tree1, ZTree tree2);
+```
+
+input: two strings.
+return: the similarity betweem two words(tags), double type.
+function: calculate the string similarity.
+```java
+double changeCost(String word1, String word2);
 ```
