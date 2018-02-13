@@ -46,8 +46,8 @@ class MyUtil {
             String textFile = (args.length > 1) ? args[1] : args[0];
             fileManager(lp, textFile);
             //test1();
-            //test2();
-            test3();
+            test2();
+            //test3();
 
             TestOptions testOpt = new TestOptions();
             testOpt.printPCFGkBest = 3;
