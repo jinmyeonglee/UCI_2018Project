@@ -15,7 +15,8 @@
 * ZhangShasha algorithm is one of the Tree Edit Distance, and computes with Insert, Delete, Replace cost.
 * I changed this cost with levels matrix.
 * All tags can be classified to one of the 4 levels(Levels will be explaned at introduction section).
-* And each level has own insert_delete weight, and replace cost.
+* And each level has own insert_delete weight, and replace weight.
+* And the final replace cost is (replace level weight * string edit distance).
 * The antecedent can be parsed with SBAR tags. I found all antecedent has SBAR tag.
 * The consequent can be parsed with excepting the SBAR tags and parsing VP.
 
@@ -26,7 +27,7 @@
 * 1 level(Phrase level): ADJP ADVP CONJP FRAG INTJ, etc.
 * 2 level(Word level): CC CD DT EX FW IN JJ  JJR JJS LS MD, etc.
 * 3 level(etc level): COMMA PERIOD ROOT.
-* 
+*
 
 ***
 #### Additional Config file
